@@ -1,0 +1,26 @@
+h2{
+    color: blue;
+    font-family: Verdana;
+    font-size: 20px;
+}
+table{
+    font-family: Verdana;
+    border-collapse: collapse; /*Use as bordas das células*/
+    width: 100%;
+}
+/*Estilização do cabeçalho da tabela*/
+th{
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+/*Altera a cor da linha ao passar o mouse*/
+tr:hover{
+    background-color: #ddd;
+}
